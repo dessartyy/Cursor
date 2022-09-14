@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616582476_38-p-chernii-fon-gradient-44.jpg);
+    background-size: cover;
+}
+
+div {
+    color: azure;
+    width: 900px;
+}
+
+img {
+    width: 400px;
+}
