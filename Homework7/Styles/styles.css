@@ -1,0 +1,600 @@
+body {
+    width: 1440px;
+    height: 4077px;
+    background: #F6F6F6;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Rochester', cursive;
+    font-family: 'Playfair Display', serif;
+}
+.h1 {
+    margin-top: 70px;
+    margin-left: 165px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+
+    color: #1B2437;
+}
+
+/* section 1 */
+.head{
+    width: 1440px;
+    height: 153px;
+    background: #FFFFFF;
+}
+.head1 {
+    display: flex;
+    padding-top: 16px;
+    margin-left: 165px;
+    height: 71px;
+}
+.logo {
+    margin-right: 370px;
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: #1B2437;
+}
+.end-of-head1 {
+    display: flex;
+    margin-left: 365px;
+    gap: 25px;
+}
+.social-icons {
+    padding-top: 8px;
+}
+.img-end {
+    margin-top: 8px;
+    width: 28px;
+    height: 28px;
+}
+.head2 {
+    display: flex;
+    width: 1440px;
+    height: 79px;
+    padding-top: 24px;
+    padding-left: 457px;
+    border-top: #F3F3F3 solid 1px;
+    gap: 83px;
+}
+.title-home {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #EDA3B5;
+}
+.title-head2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #000000;
+}
+.pink-line {
+    margin-left: 472px;
+    margin-top: -12px;
+    width: 34px;
+    height: 3px;
+    background: #EDA3B5;
+    border-radius: 2px;
+}
+/* section 2 */
+.big-image{
+    width: 1439px;
+    height: 569px;
+    margin-top: 1px;
+    margin-left: 1px;
+    background: url(../Images/image1.png);
+}
+.big-image h2 {
+    width: 361px;
+    height: 134px;
+    padding-top: 103px;
+    margin-left: 164px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.big-image p {
+    width: 446px;
+    height: 90px;
+    padding-top: 116px;
+    margin-left: 164px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.big-image button {
+    margin-top: 110px;
+    margin-left: 164px;
+    width: 255px;
+    height: 77px;
+    background: #1B2437;
+    border-radius: 15px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+/* section 3 */
+.collection{
+    margin-top: 71px;
+    margin-left: 163px;
+
+    display: grid;
+    grid-template-areas:
+
+    "women-collection1 women-collection2 women-collection3"
+
+    "women-collection1 women-collection4 women-collection4";
+
+    grid-template-columns: 445px 303px 302px 635px;
+
+    grid-template-rows:  225px 204px;
+    gap: 30px;
+}
+.women-collection1 {
+    width: 445px;
+    height: 458px;
+    background: url(../images/women-collection.png);
+    border-radius: 16px;
+}
+.women-collection1 h2 {
+    margin-top: 268px;
+    margin-left: 32px;
+    width: 250px;
+    height: 90px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+.women-collection1 p {
+    margin-left: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.women-collection1 button {
+    margin-top: 8px;
+    margin-left: 32px;
+    width: 93px;
+    height: 30px;
+
+    background: #aaaaaa;
+    border-radius: 8px;
+}
+.button-popular {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    
+}
+.women-collection2 {
+    width: 303px;
+    height: 225px;
+    background: #EFEFF4;
+    border-radius: 16px;
+}
+.women-collection2 p {
+    margin-top: 53px;
+    margin-left: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #1B2437;
+}
+.women-collection2 h2 {
+    width: 250px;
+    height: 90px;
+    margin-left: 22px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+
+    color: #1B2437;
+}
+.women-collection3 {
+
+    width: 302px;
+    height: 225px;
+    background: url(../images/dresses_category.png);
+    border-radius: 16px;
+}
+.women-collection3 p {
+    margin-top: 53px;
+    margin-left: 39px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.women-collection3 h2 {
+    margin-left: 39px; 
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.women-collection4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    width: 635px;
+    height: 204px;
+    background: url(../images/denim_jackets_category.png);
+    border-radius: 16px;
+}
+.women-collection4 p {
+    margin-top: 64px;
+    margin-left: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #1B2437;
+}
+.women-collection4 h2 {
+    margin-left: 22px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+}
+/* section 4 */
+.brands{
+    width: 1110px;
+    height: 313px;
+    margin-top: 30px;
+    margin-left: 165px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.brands-grid {
+    padding-top: 17px;
+    display: grid;
+    grid-template-columns: repeat(4, 255px);
+    grid-template-rows: repeat(1, 207px);
+    gap: 30px;
+}
+.shoes {
+    margin-top: 40px;
+    margin-left: 49px;
+    width: 156px;
+    height: 127px;
+}
+.dress-DG {
+    margin-top: 34px;
+    margin-left: 85px;
+    width: 100px;
+    height: 138px;
+}
+.bag {
+    margin-top: 57px;
+    margin-left: 49px;
+    width: 156px;
+    height: 92px;
+}
+.dress-DN{
+    margin-top: 37px;
+    margin-left: 70px;
+    width: 94px;
+    height: 132px;
+}
+.brands-name {
+    margin: 0 70px 0 70px;
+    display: flex;
+    gap: 175px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.fourDots {
+    margin-top: 24px;
+    margin-left: 513px;
+    width: 84px;
+    height: 12px;
+}
+/* section 5 */
+.you-may-like{
+    margin-top: 35px;
+    margin-left: 165px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 487px);
+    grid-gap: 30px;
+
+}
+.group1-like-buttom {
+    margin-top: 210px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.group1-like-buttom h3 {
+    padding-top: 16px;
+    margin-left: 24px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.group1-like-buttom p {
+    padding-top: 8px;
+    margin-left: 24px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.inline-you-may-like {
+    display: flex;
+}
+.inline-you-may-like p {
+    margin-top: 37px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.pink-button{
+    margin: 27px 0 16px 63px;
+    margin-bottom: 16px;
+    width: 153px;
+    height: 58px;
+
+    background: #EDA3B5;
+    border-radius: 15px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.blue-button{
+    margin: 27px 0 16px 63px;
+    margin-bottom: 16px;
+    width: 153px;
+    height: 58px;
+
+    background: #1B2437;
+    border-radius: 15px;
+
+        font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.image-girl {
+    position: absolute;
+}
+.heart {
+    position: relative;
+    margin-left: 290px;
+    margin-top: 16px;
+}
+
+
+/* section 6 */
+.contacts{
+    width: 1110px;
+    height: 658px;
+    margin-top: 35px;
+    margin-left: 165px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.image-map {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.maps-mark {
+    position: relative;
+    margin: 267px 0 0 443px;
+}
+
+.inline-contacs {
+    margin:222px 60px 0 0 ;
+    
+}
+.text-contacts {
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.icon {
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+}
+.img-location {
+    margin-left: 330px;
+}
+.img-phone{
+    margin-left: 370px;
+}
+.icon-text {
+    margin-left: 122px;
+    display: flex;
+    gap: 310px;
+}
+
+/* section 7 */
+.buttom{
+    width: 1440px;
+    height: 333px;
+    margin-top: 70px;
+    display: flex;
+    background: #FFFFFF;
+}
+.logo2 {
+    margin-top: 32px;
+    margin-left: 165px;
+    width: 109px;
+    height: 41px;
+
+    font-family: 'Rochester';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+
+    color: #1B2437;
+}
+.under-logo-text {
+    width: 255px;
+    height: 180px;
+    margin-left: 165px;
+    margin-top: 24px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C5C5C;
+}
+.h2-buttom {
+    margin-bottom: 22px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+.ul-buttom {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #8E8E93;
+}
+.li-buttom{
+    margin-bottom: 22px;
+}
+.hot-links {
+    margin-top: 45px;
+    margin-left: 126px;
+}
+.more-info {
+    margin-top: 45px;
+    margin-left: 208px;
+}
+.customer-care {
+    margin-top: 45px;
+    margin-left: 134px;
+}
+/* section 8 */
+.buttom2{
+    display: flex;
+    padding-top: 22px;
+    padding-left: 165px;
+    width: 1440px;
+    height: 74px;
+
+    background: #E5E5EA;
+}
+.buttom2-text {
+    width: 174px;
+    height: 30px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+
+    color: #8E8E93;
+}
+.buttom2-img {
+    margin-top: 3px;
+    margin-left: 812px;
+}
+
